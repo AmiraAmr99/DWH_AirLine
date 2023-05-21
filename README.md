@@ -13,6 +13,14 @@ This project focuses on assisting a major airline company in analyzing their cur
 
 Please refer to the project documentation and files provided in this repository for detailed information and outputs related to each requirement.
 
+## Modelling Technique applied 
+- **Data Vault** was chosen as a way to store the Airline System Data, then
+**Dimensional Modeling** was built in order to report and query and aggregate
+the data from the system.We choose Data vault for two main reasons:
+1. The data of the passenger in every change in one entity, the whole
+tables is written again.
+2. The parallel loading increases the performance and the optimization
+
 ## Project Structure
 
 ```
