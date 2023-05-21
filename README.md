@@ -21,18 +21,4 @@ the data from the system.We choose Data vault for two main reasons:
 tables is written again.
 2. The parallel loading increases the performance and the optimization
 
-## Project Structure
-
-```
-|-- DWH_AirLine/
-|   |-- README.md
-|   |-- Logical_Model.pdf
-|   |-- Physical_Model.xlsx
-|   |-- Sample_Data.sql
-|   |-- Queries.docx
-|   |-- Indexes_and_Partitions_Report.pdf
-```
-
-- The `documentation` directory contains all the project documentation files.
-
 Feel free to explore the provided documentation and source files to gain insights into the project's analysis and decision support capabilities.
